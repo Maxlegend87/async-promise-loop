@@ -2,6 +2,12 @@
 
 A Node.js Promise-based asynchronous loop.
 
+## Introduction
+
+Lots of times I found myself doing DataBase request for every element of an array, maybe searching info for some IDs, or getting more data for many objects.
+
+So, i created this. It allows to apply a Promise to every element of an array no matter if it is asynchronous or not.
+
 ## Usage
 
 First, install the package using npm:
