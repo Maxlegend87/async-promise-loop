@@ -11,6 +11,7 @@ First, install the package using npm:
 Then, require the package and use it like so:
 
 >If you don't understand arrow functions, go to the next example
+    
     const asyncLoop = require('./async-promise-loop/index');
 
     //Asynchronous promise to apply to each element of the array
